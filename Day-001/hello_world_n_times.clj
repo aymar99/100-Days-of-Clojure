@@ -1,3 +1,5 @@
+;; https://www.hackerrank.com/challenges/fp-hello-world-n-times/problem?h_r=profile
+
 (defn printHello [] (str "Hello World"))
 
 (defn return_hello [n] (for [i (range n)] (printHello)))
