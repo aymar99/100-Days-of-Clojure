@@ -1,0 +1,1 @@
+(defn gcd [a b] (if (not= b 0) (gcd b (mod a b)) (+ 0 a)))
